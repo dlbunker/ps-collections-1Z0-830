@@ -1,31 +1,3 @@
-## Basic Collection Type Attributes and Characteristics
-
-You should be able to answer the following questions about each core Collection type:
-
-|      | Elements Ordered?          | Allows Duplicates? | Elements Added/Removed in a Certain Order? | Allows Key/Values?  |
-|------|----------------------------|--------------------|---------------------------------------------|---------------------|
-| List | Yes – Numbered Index       | Yes                | No                                          | No                  |
-| Set  | No                         | No                 | No                                          | No                  |
-| Queue| Yes – Insertion Order      | Yes                | Yes                                         | No                  |
-| Map  | No                         | Yes – Values only  | No                                          | Yes                 |
-
----
-
-## Specific Collection Type Attributes and Characteristics
-
-You should be able to answer the following questions about each Collection implementation provided by Java:
-
-| Java Type  | Parent Interface Type | Allows Null? | Elements Sorted? | Uses hashCode? | Uses compareTo? |
-|------------|-----------------------|--------------|------------------|----------------|-----------------|
-| ArrayList  | List                  | Yes          | No               | No             | No              |
-| LinkedList | List and Queue        | Yes          | No               | No             | No              |
-| HashSet    | Set                   | Yes          | No               | Yes            | No              |
-| TreeSet    | Set                   | No           | Yes              | No             | Yes             |
-| HashMap    | Map                   | Yes          | No               | Yes            | No              |
-| TreeMap    | Map                   | No           | Yes              | No             | Yes             |
-
----
-
 ## Collection Classes Performance Cheat Sheet
 
 Understanding the time complexity for common operations is crucial for the exam. Here's a summary for each core implementation:
@@ -43,4 +15,4 @@ Understanding the time complexity for common operations is crucial for the exam.
 
 ---
 
-Use this cheat sheet to quickly review key attributes and performance characteristics. These details are not only vital for writing efficient code but also frequently appear as exam questions in the Java 21 exam.
+Use this cheat sheet to quickly review key attributes and performance characteristics. 
